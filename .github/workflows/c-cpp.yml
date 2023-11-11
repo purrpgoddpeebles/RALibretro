@@ -118,3 +118,6 @@ jobs:
       with:
         draft: true
         files: RAHasher*.zip
+                      - name: Checkout
+                uses: actions/checkout@v4.1.1
+            
